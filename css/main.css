@@ -12,93 +12,16 @@ h1 {
 }
 
 .main-banner {
-  position: relative;
   max-height: 24rem;
   overflow: hidden;
 }
 
-.banner-signup {
-  padding: 0 0 .3em;
-  background-color: #000;
-  margin: 0;
-  overflow: hidden;
-  background-image: url('../images/assets/pexel.jpg');
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-.banner-pricing {
-  padding: 0 0 .3em;
-  background-color: #000;
-  margin: 0;
-  overflow: hidden;
-  background-image: url('../images/assets/yellow.jpg');
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-.banner-resources {
-  padding: 0 0 .3em;
-  background-color: #000;
-  margin: 0;
-  overflow: hidden;
-  background-image: url('../images/assets/apple-desk.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-.banner-features {
-  padding: 0 0 .3em;
-  background-color: #000;
-  margin: 0;
-  overflow: hidden;
-  background-image: url('../images/assets/people-coffee-tea-meeting.jpg');
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-
-.btn  {
-  background-color: #d6fffa;
-  border-color: none;
-  color: #000;
-  border-radius: 32px;
-}
-
-a {
-  color: #fff;
-  border-radius: 4px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  list-style-type: none;
-  padding: .2em .5em;
-  display: inline-block;
-  margin: 0;
-}
-
-a:hover {
-  background-color: #d6fffa;
-  color: #000;
+.desk-banner {
+  position: relative;
 }
 
 body {
   margin: 0;
-}
-
-.header-p {
-  color: #fff;
-}
-
-.body-p {
-  color: #000;
 }
 
 footer {
@@ -106,10 +29,10 @@ footer {
   color: #fff;
 }
 
-img {
+img{
   width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: .5rem;
 }
 
@@ -131,7 +54,7 @@ p {
   margin: 0;
   padding: 0;
   font-size: .55em;
-  color: #333;
+  color: #fff;
 }
 
 h3 {
@@ -213,4 +136,81 @@ body {
 
 .pricing, h3{
   color: #fff;
+}
+
+.banner-content {
+  color: #000;
+  overflow: hidden;
+  position: absolute;
+}
+
+.banner-signup {
+  padding: 0 0 .3em;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('../images/assets/pexel.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.banner-pricing {
+  padding: 0 0 .3em;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('../images/assets/yellow.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.banner-resources {
+  padding: 0 0 .3em;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('../images/assets/apple-desk.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.features-banner {
+  padding: 0 0 .3em;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+
+.btn  {
+  background-color: #d6fffa;
+  border-color: none;
+  color: #000;
+  border-radius: 32px;
+}
+
+a {
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  list-style-type: none;
+  padding: .2em .5em;
+  display: inline-block;
+  margin: 0;
+}
+
+a:hover {
+  background-color: #d6fffa;
+  color: #000;
 }
