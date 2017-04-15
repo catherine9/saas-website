@@ -271,6 +271,10 @@ a:hover {
   background-color: #d1d1d1;
 }
 
-h2 {
-  color: #fff;
+h2, h3 {
+  color: #000;
+}
+
+.card-p {
+  color: #000;
 }
