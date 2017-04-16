@@ -278,3 +278,17 @@ h2, h3 {
 .card-p {
   color: #000;
 }
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  color: #fff;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .3);
+  width: 49%;
+}
+
+figure {
+  position: relative;
+}
