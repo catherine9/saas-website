@@ -162,7 +162,7 @@ body {
 }
 
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, .2);
 }
 
 .price .header {
@@ -198,6 +198,7 @@ body {
     width: 100%;
   }
 }
+
 .banner-resources {
   padding: 0 0 .3em;
   margin: 0;
