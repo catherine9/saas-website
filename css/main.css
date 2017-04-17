@@ -270,9 +270,8 @@ figcaption {
   position: absolute;
   bottom: 1em;
   right: 1em;
-  color: #fff;
+  color: #000;
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, .3);
   width: 49%;
 }
 
