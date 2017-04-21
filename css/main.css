@@ -217,6 +217,7 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   height: 500px;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .btn {
@@ -325,6 +326,7 @@ td.checkmark img {
   border-radius: 4px;
   bottom: 8em;
   right: 1em;
+  color: #45b39d;
 }
 
 .card-image {
@@ -339,4 +341,10 @@ td.checkmark img {
   width: 25%;
   padding: .75rem .75rem 4rem;
   margin: 0;
+}
+
+footer {
+  background-color: #000;
+  cursor: default;
+  color: #fff;
 }
