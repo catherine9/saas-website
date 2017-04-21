@@ -361,42 +361,4 @@ footer {
     list-style-type: none;
   }
 
-  @media only screen and (min-width: 38em) {
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-  figcaption {
-    position: absolute;
-    bottom: 1em;
-    right: 1em;
-    color: #fff;
-    border-radius: 4px;
-    width: 49%;
-  }
-
-  figure {
-    position: relative;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
-    line-height: 1.5;
-  }
-
 }
