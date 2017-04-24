@@ -206,9 +206,10 @@ body {
 .features-banner {
   padding: 0 0 .3em;
   margin: 0;
+  background-image: url("../images/assets/people-coffee-tea-meeting.jpg");
   overflow: hidden;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 500px;
 }
