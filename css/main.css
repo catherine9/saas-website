@@ -236,16 +236,6 @@ a:hover {
   color: #000;
 }
 
-.body-p {
-  color: #fff;
-  position: absolute;
-  bottom: 7em;
-  right: 7em;
-  border-radius: 4px;
-  width: 49%;
-  background-color: rgba(0, 0, 0, .3);
-}
-
 .icon-label {
   color: #000;
 }
